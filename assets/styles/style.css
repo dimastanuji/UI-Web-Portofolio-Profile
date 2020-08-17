@@ -1,0 +1,323 @@
+  
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+body {
+   font-family: 'Source Sans Pro' ,sans-serif;
+   margin: 0;
+   padding: 0;
+}
+main {
+   padding: 20px;
+   overflow: auto;
+}
+h2, h3 {
+   color: black
+   
+}
+aside p{
+   text-align: justify;
+}
+main p{
+   text-align: justify;
+}
+
+nav a:hover {
+   font-weight: bold;
+}
+
+.profile header {
+   text-align: center;
+}
+
+footer {
+   padding: 20px;
+   color: white;
+   background-color: black;
+   text-align: center;
+   font-weight: bold;
+}
+
+.featured-image {
+   width: 100%;
+   max-height: auto;
+   object-fit: cover;
+   object-position: center;
+}
+
+.profile img {
+   width: 200px;
+}
+
+.container {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+   overflow: hidden;
+}
+
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-color: black;
+   text-align: center;
+   color: white;
+}
+
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+
+nav {
+   background-color: black;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+/*batas/////////////////////////////////////////////*/
+/* stayl artikel */
+
+.card{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+   overflow: hidden;
+}
+
+.card-image{
+   width: 100%;
+   max-height: auto;
+   object-fit: cover;
+   object-position: center;
+}
+
+.leftartikel{
+   float: left;
+   width: 30%;
+   padding: 3%;
+}
+.midartikel {
+   float: left;
+   width: 30%;
+   padding: 3%;
+
+}
+.rightartikel {
+   float: left;
+   width: 30%;
+   padding: 3%;
+}
+
+/*batas/////////////////////////////////////////////*/
+/* stayl aside */
+.left{
+   float: left;
+   width: 40%;
+}
+
+.right {
+   float: right;
+   width: 60%;
+}
+/*batas/////////////////////////////////////////////*/
+/* stayl portofolio */
+.leftportofolio{
+   float: left;
+   width: 45%;
+   padding: 2%;
+}
+
+.rightportofolio {
+   float: right;
+   width: 45%;
+   padding: 2%;
+}
+
+/*batas/////////////////////////////////////////////*/
+/* stayl portofolio */
+.leftgaleri{
+   float: right;
+   width: 45%;
+   padding: 2%;
+}
+
+.rightgaleri {
+   float: right;
+   width: 45%;
+   padding: 2%;
+}
+
+/*batas/////////////////////////////////////////////*/
+/*butoon */
+.button {
+   border: none;
+   color: white;
+   padding: 16px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 24px;
+   margin: 4px 2px;
+   transition-duration: 0.4s;
+   cursor: pointer;
+ }
+ 
+ .button1 {
+   background-color: white; 
+   color: black; 
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+ }
+ 
+ .button1:hover {
+   background-color: black;
+   color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+ }
+ 
+ 
+
+/*batas/////////////////////////////////////////////*/
+/*slider main */
+.slideshow-container {
+   max-width: 1000px;
+   position: relative;
+   margin: auto;
+ }
+ 
+ /* Next & previous buttons */
+ .prev, .next {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   padding: 16px;
+   margin-top: -22px;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+ }
+ 
+ .next {
+   right: 0;
+   border-radius: 3px 0 0 3px;
+ }
+ 
+ 
+ .prev:hover, .next:hover {
+   background-color: rgba(0,0,0,0.8);
+ }
+ 
+ .text {
+   color: #f2f2f2;
+   font-size: 15px;
+   padding: 8px 12px;
+   position: absolute;
+   bottom: 8px;
+   width: 100%;
+   text-align: center;
+ }
+ 
+ .numbertext {
+   color: #f2f2f2;
+   font-size: 12px;
+   padding: 8px 12px;
+   position: absolute;
+   top: 0;
+ }
+ 
+ .dot {
+   cursor: pointer;
+   height: 15px;
+   width: 15px;
+   margin: 0 2px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+ }
+ 
+ .active, .dot:hover {
+   background-color: #717171;
+ }
+ 
+ .fade {
+   -webkit-animation-name: fade;
+   -webkit-animation-duration: 1.5s;
+   animation-name: fade;
+   animation-duration: 1.5s;
+ }
+
+ .logo{
+    width: 100px;
+    height: auto;
+ }
+ 
+ @-webkit-keyframes fade {
+   from {opacity: .4} 
+   to {opacity: 1}
+ }
+ 
+ @keyframes fade {
+   from {opacity: .4} 
+   to {opacity: 1}
+ }
+ 
+ .contact{
+    padding-left: 4%;
+ }
+
+* {
+   box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+
+
+   .leftartikel,
+   .midartikel,
+   .rightartikel{
+      width: 100%;
+       padding: 0;
+   }
+
+
+   .leftportofolio,
+   .rightportofolio{
+      width: 100%;
+       padding: 0;
+   }
+
+   .leftgaleri,
+   .rightgaleri{
+      width: 100%;
+       padding: 0;
+   }
+
+   .left,
+   .right  {
+       width: 100%;
+       padding: 0;
+   }
+   .prev, .next,.text {font-size: 11px}
+}
+
+
+header {
+   display: inline;
+}
+
